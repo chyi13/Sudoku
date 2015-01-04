@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@drawable/back"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:padding="30dip"
+  android:orientation="horizontal">
+  <LinearLayout
+  	android:orientation="vertical"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_gravity="center">
+  	<TextView 
+  	android:text="Sudoku"
+  	android:textColor="#FF4500"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_gravity="center"
+  	android:layout_marginBottom="25dip"
+  	android:textSize="24.5sp"/>
+  	<Button 
+  	android:id="@+id/Newgame"
+  	android:text="新  游  戏"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"/>
+  	<Button 
+  	android:id="@+id/SudokuRules"
+  	android:text="Sudoku规则"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"/>
+  	<Button 
+  	android:id="@+id/Record"
+  	android:text="排行榜"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"/>
+  	<Button
+  	android:id="@+id/Exit"
+  	android:text="退   出"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"/>
+  	</LinearLayout>
+  	
+</LinearLayout>

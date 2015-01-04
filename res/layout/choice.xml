@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@drawable/back"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:padding="30dip"
+  android:orientation="horizontal">
+  <LinearLayout
+  	android:orientation="vertical"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_gravity="center">
+  	<TextView
+  		android:layout_width="wrap_content"
+  		android:layout_height="fill_parent"
+  		android:text="难度选择"
+  		android:textColor="#FF4500"
+  		android:layout_gravity="center"
+  		android:layout_marginBottom="25dip"
+  		android:textSize="24.5sp"
+  		/>	
+  	<Button
+  		android:id="@+id/easy1"
+  		android:text="简   单"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"/>
+  	<Button
+  		android:id="@+id/medium1"
+  		android:text="中   等"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"/>
+  	<Button
+  		android:id="@+id/hard1"
+  		android:text="困   难"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"/>
+  	
+  </LinearLayout>
+</LinearLayout>
