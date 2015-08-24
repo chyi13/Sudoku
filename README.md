@@ -1,3 +1,3 @@
 Sudoku
-A android Sudoku game.
+An android Sudoku game.
 ======
